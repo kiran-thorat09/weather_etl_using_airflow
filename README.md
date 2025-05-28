@@ -23,3 +23,15 @@ Both Airflow and PostgreSQL run inside Docker containers, ensuring easy setup an
 6)Visualize in DBeaver
 The final weather data can be explored and analyzed using the DBeaver GUI, which connects directly to the Dockerized PostgreSQL instance.
 
+🧱 Tech Stack
+Python – Data extraction & transformation
+
+Open-Meteo API – Source of weather data
+
+Apache Airflow – Workflow orchestration
+
+PostgreSQL – Target data warehouse
+
+Docker – Containerized deployment
+
+DBeaver – Data exploration and visualization tool
