@@ -1,13 +1,13 @@
-###Weather Data Forecasting using Airflow
+# Weather Data Forecasting using Airflow
 
-📌 Project Overview:
+### 📌 Project Overview:
 
 This project demonstrates a simple yet powerful ETL (Extract, Transform, Load) pipeline that automates the process of fetching weather data from the Open-Meteo API, transforming it using Python, orchestrating the workflow via Apache Airflow, and loading the processed data into a PostgreSQL database running inside a Docker container. The stored data can then be visualized or queried using DBeaver.
 
 ![image](https://github.com/user-attachments/assets/8f976492-6881-4504-b11a-55ea2a8ff53c)
 
 
-🔄 ETL Flow Summary:
+### 🔄 ETL Flow Summary:
 
 1)Extract
 Real-time weather data is fetched from the Open-Meteo API using a Python script.
@@ -27,15 +27,15 @@ Both Airflow and PostgreSQL run inside Docker containers, ensuring easy setup an
 6)Visualize in DBeaver
 The final weather data can be explored and analyzed using the DBeaver GUI, which connects directly to the Dockerized PostgreSQL instance.
 
-🧱 Tech Stack
-Python – Data extraction & transformation
+### 🧱 Tech Stack
+1)Python – Data extraction & transformation
 
-Open-Meteo API – Source of weather data
+2)Open-Meteo API – Source of weather data
 
-Apache Airflow – Workflow orchestration
+3)Apache Airflow – Workflow orchestration
 
-PostgreSQL – Target data warehouse
+4)PostgreSQL – Target data warehouse
 
-Docker – Containerized deployment
+5)Docker – Containerized deployment
 
-DBeaver – Data exploration and visualization tool
+6)DBeaver – Data exploration and visualization tool
